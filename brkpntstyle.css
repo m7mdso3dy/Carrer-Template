@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+/*style at 1000px*/
+@media screen and (max-width: 1250px){
+	header{
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+	}
+	.logo{
+		width: 50%;
+		text-align: center;
+	}
+	nav{
+		width: 70%;
+		margin-top: 8px;
+	}
+	.banner{
+		padding-top: 150px;
+	}
+	.resume,.services,.portofoilo,.testimonial,.contact{
+		width: 100%;
+	}
+}/*style at 1000 px*/
+@media screen and (max-width: 1000px){
+	.resume>ul{
+		width: 85%;
+	}
+	.services>ul>li{
+		width: 45%;
+	}
+	.artwork>div{
+		width: 45%;
+	}
+	.catalog{
+		padding-left: 64px;
+	}
+}
+/*style at 900px*/
+@media screen and (max-width: 900px){
+	nav{
+		padding: 0;
+		align-self: flex-start;
+		width: 90%;
+	}
+}
+/*style at 750px*/
+
+@media screen and (max-width: 750px){
+	body{
+		overflow-x: hidden;
+	}
+	.services>ul>li{
+		width: 90%;
+	}
+	.artwork>div{
+		width: 90%;
+	}
+	.testimonial>ul>li{
+		width: 90%;
+	}
+	.location{
+		width: 90%;
+	}
+	.contact-form{
+		width: 90%;
+	}
+	.services>ul, .testimonial>ul{
+		padding-left: 16px;
+		justify-content: flex-start;
+	}
+	.resume, .services, .portofoilo, .testimonial, .contact{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.catalog{
+		align-self: flex-start;
+		padding-left: 0;
+	}
+	.artwork{
+		margin-left: 16px;
+	}
+	.main-head{
+		position: relative;
+	}
+	.thirdrow{
+		width: 100%;
+	}
+	.thirdrow>ul{
+		padding: 0;
+	}
+	.thirdrow>p{
+		margin-right: 58px;
+	}
+	.contact-form>form>label{
+		width: 100%;
+	}
+	.contact-form>form>input[type="submit"]{
+		float: left;
+	}
+	.contact-form>form>input,.contact-form>form>textarea{
+		width: 75%;
+	}
+	nav{
+		display: none;
+	}
+	header{
+		align-items: flex-start;
+	}
+	.banner-img>img{
+		width: 250px;
+		height:250px;
+	}
+	.banner-img{
+		width: 280px;
+		height: 280px;
+	}
+	.row2{
+		justify-content: flex-start;
+		margin-left: 16px;
+	}
+	.location{
+		width: 80%;
+	}
+	.logo{
+		text-align: left;
+	}
+	.logo>img{
+		width: 150px;
+	}
+	nav>ul.nav-bar>li{
+		display: block;
+    	width: 100%;
+    	padding: 10px 0px;
+		text-align: left;
+		}
+	ul.nav-bar{
+		list-style: none;
+    	display: flex;
+    	width: 100%;
+    	flex-wrap: wrap;
+	}
+	ul.nav-bar>li>img{
+		padding-right: 32px;
+    	padding-bottom: 4px;
+		display: inline-block;
+	}
+	.trig{
+		display: block;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
